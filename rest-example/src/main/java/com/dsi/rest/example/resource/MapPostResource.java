@@ -11,7 +11,7 @@ import com.dsi.rest.entity.MediaType;
 public class MapPostResource {
 
 	/*
-	 * Sample command - curl -XPOST http://localhost:8080/rest/postReqWithMap -d '{"msg1":"Hello","msg2":"World"}'
+	 * Sample command - curl -XPOST http://localhost:8080/rest/postReqWithMap/some/thing -d '{"msg1":"Hello","msg2":"World"}'
 	 */
 	@Path(mapping = "postReqWithMap/{some}/{thing}", requestMethod = HttpMethod.POST, responseContentType = MediaType.APPLICATION_JSON_TYPE)
 	public Map jsonGetRequestWithPojoJsonResponse(String some, String thing, Map inMap) {
