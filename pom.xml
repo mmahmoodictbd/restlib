@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.dsi</groupId>
+	<groupId>com.chumbok</groupId>
 	<artifactId>rest</artifactId>
 	<version>1.0.1</version>
 	<packaging>jar</packaging>
@@ -138,18 +138,18 @@
 
 	<distributionManagement>
 		<repository>
-			<id>dsi-nexus</id>
+			<id>chumbok-nexus</id>
 			<url>http://localhost:8081/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>dsi-nexus</id>
+			<id>chumbok-nexus</id>
 			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 	<repositories>
 		<repository>
-			<id>dsi-nexus</id>
+			<id>chumbok-nexus</id>
 			<url>http://localhost:8081/nexus/content/groups/public</url>
 			<releases>
 				<enabled>true</enabled>
